@@ -14,3 +14,37 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@import "../assets/fonts/klavika-regular/KlavikaRegular.css";
+@import "../assets/fonts/klavika-bold/KlavikaBold.css";
+@import "../assets/fonts/klavika-medium/KlavikaMedium.css";
+@import "../assets/fonts/modeka/Modeka.css";
+@import "../assets/fonts/modekan/Modekan.css";
+
+
+ion-app.ios {
+  font-family: 'KlavikaRegular' !important;
+
+  h1, h2, h3, h4, h5{
+    font-family: 'Modekan';
+    text-transform:uppercase;
+  }
+}
+
+ion-app.md {
+  font-family: 'KlavikaRegular' !important;
+
+  h1, h2, h3, h4, h5{
+    font-family: 'Modekan';
+    text-transform:uppercase;
+  }
+}
+
+ion-app.wp {
+  font-family: 'KlavikaRegular' !important;
+
+  h1, h2, h3, h4, h5{
+    font-family: 'Modekan';
+    text-transform:uppercase;
+  }
+}

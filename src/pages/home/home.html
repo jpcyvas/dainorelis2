@@ -1,17 +1,26 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding class="logo-container">
+    <img src="assets/imgs/logo_white.png">
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="menu">
+        <ion-col>
+          <div (click)="goToSongs()">
+            <img src="assets/imgs/icon_book_white.png">
+            Visos
+          </div>
+        </ion-col>
+        <ion-col>
+          <img src="assets/imgs/icon_fav_white.png">
+          Mano
+        </ion-col>
+        <ion-col>
+          <img src="assets/imgs/icon_settings_white.png">
+          Apie Mus
+        </ion-col>
+      </ion-row>
+      </ion-grid>
+  </ion-toolbar>
+</ion-footer>

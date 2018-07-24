@@ -1,0 +1,30 @@
+page-songs{
+
+  ion-content.content{
+    background-color:#FDF8F5;
+  }
+
+  .toolbar-background{
+    background-image: url('../assets/imgs/miskas.jpeg') !important;
+    background-size: auto  !important;
+    background-position: 27% 40%  !important;
+    background-repeat: no-repeat  !important;
+    color:white;
+  }
+
+  .back-button{
+    color:white;
+  }
+
+  .toolbar-title{
+    color:white;
+    text-transform: uppercase;
+  }
+
+  ion-fab-list{
+    width:70vw;
+  }
+
+
+
+}
