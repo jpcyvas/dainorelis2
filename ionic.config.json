@@ -1,0 +1,8 @@
+{
+  "name": "dainorelis2",
+  "app_id": "742021df",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
